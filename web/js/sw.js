@@ -9,6 +9,6 @@ self.addEventListener('install', e =>{
 
 self.addEventListener('activate', e => {});
 
-self.addEventListener('fetch', FetchEvent => {
+self.addEventListener('fetch', fetchEvent => {
     console.dir(fetchEvent);
 });
