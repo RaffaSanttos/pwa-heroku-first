@@ -1,4 +1,5 @@
-self.addEventListener('install', e =>{
+self.addEventListener('install', function(e) {
+    alert("evento de instalação detectado")
     e.waitUntill(
         caches.open('static-v1')
         .then(cache => {
@@ -6,8 +7,6 @@ self.addEventListener('install', e =>{
         })
     )
 });
-
-self.addEventListener('activate', e => {});
 
 self.addEventListener('fetch', fetchEvent => {
     console.dir(fetchEvent);
