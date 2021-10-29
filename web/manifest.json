@@ -4,7 +4,7 @@
     "description": "WEB APP para aprender PWA (Disciplina PAMII).",
     "display": "fullscreen",
     "start_url":"index.html",    
-    "scope": "/web/js/",
+    "scope": "/",
     
     "icons": [
         {

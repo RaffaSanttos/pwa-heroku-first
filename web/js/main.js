@@ -1,6 +1,6 @@
 if('serviceWorker' in navigator){
     console.log("Instalando serviceWorker...");
-    navigator.serviceWorker.register("/web/js/sw.js")
+    navigator.serviceWorker.register("/sw.js")
         
         .then(e => {console.log("sw.js instalado")})
         
