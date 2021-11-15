@@ -1,5 +1,5 @@
-self.addEventListener('install', function (e) {
-    alert()
+self.addEventListener('install', function(e) {
+    alert("evento de instalação detectado")
     e.waitUntill(
         caches.open('static-v1')
         .then(cache => {
